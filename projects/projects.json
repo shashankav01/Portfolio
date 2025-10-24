@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Mood Analyzer Leveraging Sentiment Analysis and Machine Learning",
+    "desc": "Mood Analyzer\n\nA machine learning–powered web application that analyzes user text and predicts the underlying mood/emotion using NLP techniques, sentiment analysis, and a trained classifier.\n\nFeatures:\n- Text preprocessing with NLTK (tokenization, stopwords, negation handling).\n- Sentiment analysis using TextBlob and VADER.\n- Emotion keyword and emoji detection.\n- Machine learning model (Random Forest Classifier with TF-IDF features).\n- Flask-based API (/analyze) for mood detection.\n- Supports probability distribution of all mood classes for confidence scoring.\n\nTech Stack:\nBackend: Flask (Python)\nML/NLP: scikit-learn, NLTK, TextBlob, Emoji\nDataset: Custom large mood dataset (large_mood_dataset.csv)\nDeployment Ready: Gunicorn, Flask-CORS, dotenv",
+    "image": "moodanalyzer",
+    "category": "ml",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/shashankav01/Sentiment-Analysis-Project"
+    }
+  }
+]
